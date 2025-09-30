@@ -1,3 +1,4 @@
+/* Page styling */
 body{
 display: flex;
 flex-direction: column;
@@ -6,6 +7,7 @@ background-color: hsl(60, 27%, 66%);
 
 }
 
+/* Page heading */
 #myH1{
     font-size: 4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,6 +15,7 @@ background-color: hsl(60, 27%, 66%);
 
 }
 
+/* Stopwatch box */
 #container{
     display: flex;
     flex-direction: column;
@@ -69,6 +72,7 @@ background-color: hsl(60, 27%, 66%);
     background-color: hsl(50, 66%, 23%);
 }
 
+/* mobile interraction */
 
 @media (max-width: 768px) {
     #myH1 {
